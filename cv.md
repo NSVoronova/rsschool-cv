@@ -4,8 +4,10 @@
 - **Location:** Lodz, Poland
 - **E-mail:** nadya.voronova@gmail.com
 - **GitHub:** [NSVoronova](https://github.com/NSVoronova)
+- **Discord** Nadzeya(@NSVoronova)
 
 ## About Me
+I am 27 years old and I am a doctor. I have been self-learning programming for a long time. I've been using different sources of information: YouTube, blogs in social media, suitable web-sites. I'd like to change my sphere of work and get my first offer. 
 
 ## Skills 
 
@@ -33,6 +35,9 @@
 console.log(result);
 ```
 
+## Experience
+My projects:
+- [To do list](https://github.com/NSVoronova/ToDoList)
 ## Education 
 
 * **Vitebsk State Medical University**
