@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="wrapper">
+  <aside class="hello__aside">
+    <p>HELLO</p>
+  </aside>
+  <main>
+      <header>
+        <nav>
+          <ul class="navigation">
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code__example">Code example</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contacts__container">
+        <div class="name__container">
+          <div>
+            <img src="./image/photo_2023-07-05_15-41-56.jpg" alt="my avatar" width="300" />
+          </div>
+          <div class="about__me">
+            <h1>Nadzeya Voronova</h1>
+            <p class="text__front">FrontEnd developer</p>
+            <p class="about__me-text">
+              I am 27 years old and I am a doctor. I have been self-learning
+              programming for a long time. I’ve been using different sources
+              of information: YouTube, blogs in social media, suitable
+              web-sites. I’d like to change my sphere of work and get my first
+              offer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container__info">
+        <section class="contacts" id="contacts">
+          <div>
+            <h2 class="section__name">Contacts</h2>
+            <ul>
+              <li>
+                <span class="contacts__name">Location: </span> Lodz, Poland
+              </li>
+              <li>
+                <span class="contacts__name">E-mail: </span>
+                nadya.voronova@gmail.com
+              </li>
+              <li>
+                <img src="./image/github.svg" alt="github" width="20" style="position: relative; top: 2px;"><a href="https://github.com/NSVoronova">
+                  NSVoronova</a>
+              </li>
+              <li>
+                <img src="./image/diskord.png" alt="diskord" width="20" style="position: relative; top: 5px;"> Nadzeya(@NSVoronova)
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section__name">Skills</h2>
+          <div style="display: flex;">
+            <img src="./image/skill_2_shape.svg" alt="#" width="120">
+            <ul style="margin-left: 20px;">
+              <li>HTML5</li>
+              <li>Javascript(Basic)</li>
+              <li>Git</li>
+              <li>CSS3/SASS, Bootstrap</li>
+            </ul>
+          </div>
+        </section>
+        <section class="education" id="education">
+          <h2 class="section__name">My Education</h2>
+          <ul style="margin-left: 15px;">
+            <li style="list-style:disc;">Vitebsk State Medical University</li>
+            <li style="list-style:disc;">HTML Academy</li>
+            <li style="list-style:disc;">
+              <a href="https://learn.javascript.ru/">learn.javascript.ru</a>
+            </li>
+            <li style="list-style:disc;">RSSchool (in progress..)</li>
+          </ul>
+        </section>
+        <section class="code__example">
+          <h2 class="section__name">Code Example</h2>
+          <pre>
+  <code class="code__example" id="code__example">
+<span class="red">let</span> <span class="blue">str1</span> = <span class="red">prompt</span>('Ведите слово');
+<span class="red">let</span> <span class="blue">arr1 </span>= str1.<span class="red">split</span>("");
+<span class="red">let</span> <span class="blue">arr2</span> = arr1.<span class="red">slice</span>();
+arr2.<span class="red">reverse</span>();
+<span class="red">let</span> <span class="blue">result</span> = "Слово явялется палиндромом"
+<span class="red">for</span> (<span class="red">let</span> <span>i</span> = 0; i&lt;arr1.<span class="red">length</span>;i++){
+<span class="red">if</span> (arr1[i]!==arr2[i]) {
+<span class="red">result</span> = "Слово не палиндром"
+      }
+    }
+      <span class="red">console.log</span>(<span class="blue">result</span>);
+              </code>
+            </pre>
+        </section>
+        <section class="experience" id="experience">
+          <h2 class="section__name">Experience</h2>
+          <ul style="margin-left: 15px;">
+            <li style="list-style:disc;">
+              <a href="https://github.com/NSVoronova/ToDoList">To do list </a>(HTML, CSS, JavaScript)
+            </li>
+            <li style="list-style:disc;">
+              <a href="https://github.com/NSVoronova/Axit">AXIT</a>(HTML, CSS)
+            </li>
+          </ul>
+        </section>
+        <section class="languages" id="languages">
+          <h2 class="section__name">Languages</h2>
+          <p><span class="contacts__name">Russian</span> - native speaker</p>
+          <p><span class="contacts__name">English</span> - A2</p>
+          <p><span class="contacts__name">Polish</span> - A1</p>
+        </section>
+      </div>
+      <footer>
+        <p><a href="https://github.com/NSVoronova"><img src="./image/github.svg" alt="github" width="50"></a></p>
+        <p>2023</p>
+        <p><a href="https://rs.school/js/"><img src="./image/rs_school_js.svg" alt="github" width="100"></a></p>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>
