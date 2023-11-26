@@ -176,3 +176,50 @@ footer {
 footer > p {
   margin: auto;
 }
+
+#my_photo {
+  width: 300px;
+}
+
+#github_img {
+  width: 20px;
+  position: relative;
+  top: 2px;
+}
+
+#discord_img {
+  width: 20px;
+  position: relative;
+  top: 5px;
+}
+#skills_div {
+  display: flex;
+}
+#skills_div img {
+  width: 120px;
+}
+#skills_div ul {
+  margin-left: 20px;
+}
+
+#education ul {
+  margin-left: 15px;
+}
+#education ul li {
+  list-style:disc;
+}
+
+#experience ul {
+  margin-left: 15px;
+}
+#experience ul li {
+  list-style:disc;
+}
+
+#footer_github {
+  width: 50px;
+}
+
+#footer_rs {
+  width: 100px;
+}
